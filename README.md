@@ -76,7 +76,17 @@ dependencies {
 ```
 In your firebase dashboard select Authentication then sign in method tab and then enable Email/Password and Google.
 
+Now lets add Slide Root Api for side navigation
 
+### SlidingRootNav
+To check more about [SlidingRootNav](https://github.com/yarolegovich/SlidingRootNav#slidingrootnav)
+#### Gradle
+```groovy
+dependencies {
+        implementation 'com.yarolegovich:sliding-root-nav:1.1.1'
+
+}
+```
 
 
 
