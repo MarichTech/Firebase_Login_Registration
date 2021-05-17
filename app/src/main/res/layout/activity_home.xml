@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar1"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:titleTextColor="@color/colorAccent"
+                android:gravity="left"
+                android:background="@color/colorAccent">
+
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/appname"
+                    android:textSize="28sp"
+                    android:gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FirebaseAuth"
+                    android:padding="5dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/view_profile"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/profile"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:onClick="viewProfile"/>
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
+    <color name="colorPrimary">#5093FF</color>
+    <color name="colorPrimaryDark">#3C4EEE</color>
+    <color name="colorAccent">#fff</color>
+    <color name="colorLight">#FFFFFF</color>
 
     <color name="white">#FFF</color>
 
     <color name="black">#000000</color>
 
-    <color name="colorPrimary">#5093FF</color>
-    <color name="colorPrimaryDark">#3C4EEE</color>
-    <color name="colorAccent">#fff</color>
-    <color name="colorLight">#FFFFFF</color>
+    <color name="colorAccentt">#5093FF</color>
+    <color name="minimal_black">#212121</color>
+
+
 </resources>
