@@ -57,6 +57,33 @@ dependencies {
 }
 ```
 
+For people using androidx you need to update your styles.xml or else you will get an error with using material component
+### For Androidx users
+
+*Change this Styles.xml from AppCompat*
+#### AppCompat users Styles.xml
+```xml
+ <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+```
+
+*Change to this*
+#### AndroidX users Styles.xml
+```xml
+  <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+```
+
 
 After designing the login UI lets add firebase Api's 
 * First create a firebase project and add your apllication to it. [Add firebase to you android application](https://firebase.google.com/docs/android/setup#console)
