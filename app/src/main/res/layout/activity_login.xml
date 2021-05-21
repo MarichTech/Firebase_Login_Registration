@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
+    tools:context=".activity.LoginActivity"
     android:background="#FFF">
 
     <ScrollView
@@ -27,8 +27,9 @@
                 android:textColor="#212121"
                 android:layout_marginTop="20dp"
                 fontPath="fonts/bold.ttf"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="Sign In"
                 android:textSize="32sp"
                 tools:ignore="MissingPrefix" />
@@ -97,7 +98,8 @@
                 android:padding="10dp"
                 android:text="Sign In"
                 android:textAllCaps="false"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:onClick="onLogin"/>
 
             <ProgressBar
                 android:layout_marginTop="20dp"
@@ -122,5 +124,8 @@
         android:textAllCaps="false"
         android:textColor="#757575"
         android:textSize="16sp" />
+
+
+
 
 </FrameLayout>

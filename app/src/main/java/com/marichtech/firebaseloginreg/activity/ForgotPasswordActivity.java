@@ -1,8 +1,10 @@
-package com.marichtech.firebaseloginreg;
+package com.marichtech.firebaseloginreg.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.marichtech.firebaseloginreg.R;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
 

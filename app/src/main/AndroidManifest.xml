@@ -9,18 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForgotPasswordActivity"></activity>
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".LoginActivity" >
+        <activity android:name=".activity.AboutActivity"></activity>
+        <activity android:name=".activity.ProfileActivity" />
+        <activity android:name=".activity.ForgotPasswordActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
+        <activity android:name=".activity.LoginActivity"/>
+
+        <activity android:name=".activity.HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity"/>
-
-
     </application>
 
 </manifest>
